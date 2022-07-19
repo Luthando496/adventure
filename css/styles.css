@@ -686,3 +686,52 @@ Footer
   letter-spacing: var(--spacing);
   color: white;
 }
+
+
+@media screen and (min-width:992px){
+  .navbar{
+    padding: 1.2rem 1.5rem;
+  }
+  .nav-toggle{
+    display:none;
+
+  }
+  .nav-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links{
+    height:auto;
+    display: flex;
+  }
+  .nav-header{
+    padding: 0 0;
+  }
+  .nav-link{
+    padding: 0 0;
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+
+  }
+  .nav-link:hover{
+    background: transparent;
+    padding:0;
+    color: rgb(189, 131, 131);
+  }
+
+  .nav-icons{
+    display: flex;
+  }
+  .nav-icon{
+    margin-right: 0.7rem;
+    color: var(--clr-primary-5);
+    font-size: 1.5rem;
+    transition: var(--transition);
+  }
+
+  .nav-icon:hover{
+    color: rgb(211, 127, 17);
+
+  }
+}
